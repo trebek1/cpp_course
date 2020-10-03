@@ -5,15 +5,15 @@
 ## Debug
 ProjectName            :=FirstProgram
 ConfigurationName      :=Debug
-WorkspacePath          :=/Users/merlin/Documents/Section4
-ProjectPath            :=/Users/merlin/Documents/Section4/FirstProgram
+WorkspacePath          :=/Users/merlin/Documents/cpp_course/Section4
+ProjectPath            :=/Users/merlin/Documents/cpp_course/Section4/FirstProgram
 IntermediateDirectory  :=$(ConfigurationName)
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=Alex Trzeciak
-Date                   :=01/10/2020
+Date                   :=03/10/2020
 CodeLitePath           :="/Users/merlin/Library/Application Support/CodeLite"
 LinkerName             :=/usr/bin/g++
 SharedObjectLinkerName :=/usr/bin/g++ -dynamiclib -fPIC
@@ -93,7 +93,7 @@ PreBuild:
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/merlin/Documents/Section4/FirstProgram/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/merlin/Documents/cpp_course/Section4/FirstProgram/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 

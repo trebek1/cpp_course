@@ -2,5 +2,5 @@
 
 int main(){
     std::cout <<"My template" << std::endl;
-    return 0;    
+    return 0;
 }
