@@ -6,7 +6,14 @@
   <Project Name="CompilerErrors" Path="CompilerErrors/CompilerErrors.project" Active="No"/>
   <Project Name="CompilerWarnings" Path="CompilerWarnings/CompilerWarnings.project" Active="No"/>
   <Project Name="LinkerError" Path="LinkerError/LinkerError.project" Active="No"/>
-  <Project Name="quiz_1" Path="quiz_1/quiz_1.project" Active="Yes"/>
+  <Project Name="quiz_1" Path="quiz_1/quiz_1.project" Active="No"/>
+  <Project Name="BasicIO" Path="BasicIO/BasicIO.project" Active="No"/>
+  <Project Name="Variables" Path="Variables/Variables.project" Active="No"/>
+  <Project Name="GlobalVariables" Path="GlobalVariables/GlobalVariables.project" Active="No"/>
+  <Project Name="Primitives" Path="Primitives/Primitives.project" Active="No"/>
+  <Project Name="theSizeofOperator" Path="theSizeofOperator/theSizeofOperator.project" Active="No"/>
+  <Project Name="Constants" Path="Constants/Constants.project" Active="Yes"/>
+  <Project Name="Template" Path="Template/Template.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -17,6 +24,13 @@
       <Project Name="CompilerWarnings" ConfigName="Debug"/>
       <Project Name="LinkerError" ConfigName="Debug"/>
       <Project Name="quiz_1" ConfigName="Debug"/>
+      <Project Name="BasicIO" ConfigName="Debug"/>
+      <Project Name="Variables" ConfigName="Debug"/>
+      <Project Name="GlobalVariables" ConfigName="Debug"/>
+      <Project Name="Primitives" ConfigName="Debug"/>
+      <Project Name="theSizeofOperator" ConfigName="Debug"/>
+      <Project Name="Constants" ConfigName="Debug"/>
+      <Project Name="Template" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -27,6 +41,13 @@
       <Project Name="CompilerWarnings" ConfigName="Release"/>
       <Project Name="LinkerError" ConfigName="Release"/>
       <Project Name="quiz_1" ConfigName="Release"/>
+      <Project Name="BasicIO" ConfigName="Release"/>
+      <Project Name="Variables" ConfigName="Release"/>
+      <Project Name="GlobalVariables" ConfigName="Release"/>
+      <Project Name="Primitives" ConfigName="Release"/>
+      <Project Name="theSizeofOperator" ConfigName="Release"/>
+      <Project Name="Constants" ConfigName="Release"/>
+      <Project Name="Template" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
