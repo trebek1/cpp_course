@@ -14,7 +14,9 @@
   <Project Name="theSizeofOperator" Path="theSizeofOperator/theSizeofOperator.project" Active="No"/>
   <Project Name="Constants" Path="Constants/Constants.project" Active="No"/>
   <Project Name="Template" Path="Template/Template.project" Active="No"/>
-  <Project Name="arrays" Path="arrays/arrays.project" Active="Yes"/>
+  <Project Name="arrays" Path="arrays/arrays.project" Active="No"/>
+  <Project Name="CStyleString" Path="CStyleString/CStyleString.project" Active="No"/>
+  <Project Name="CPPStrings" Path="CPPStrings/CPPStrings.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -33,6 +35,8 @@
       <Project Name="Constants" ConfigName="Debug"/>
       <Project Name="Template" ConfigName="Debug"/>
       <Project Name="arrays" ConfigName="Debug"/>
+      <Project Name="CStyleString" ConfigName="Debug"/>
+      <Project Name="CPPStrings" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -51,6 +55,8 @@
       <Project Name="Constants" ConfigName="Release"/>
       <Project Name="Template" ConfigName="Release"/>
       <Project Name="arrays" ConfigName="Release"/>
+      <Project Name="CStyleString" ConfigName="Release"/>
+      <Project Name="CPPStrings" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

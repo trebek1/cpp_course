@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ arrays - Debug ]----------"
-	@cd "arrays" && "$(MAKE)" -f  "arrays.mk"
+	@echo "----------Building project:[ CPPStrings - Debug ]----------"
+	@cd "CPPStrings" && "$(MAKE)" -f  "CPPStrings.mk"
 clean:
-	@echo "----------Cleaning project:[ arrays - Debug ]----------"
-	@cd "arrays" && "$(MAKE)" -f  "arrays.mk" clean
+	@echo "----------Cleaning project:[ CPPStrings - Debug ]----------"
+	@cd "CPPStrings" && "$(MAKE)" -f  "CPPStrings.mk" clean
