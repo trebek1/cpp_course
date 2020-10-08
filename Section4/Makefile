@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ CPPStrings - Debug ]----------"
-	@cd "CPPStrings" && "$(MAKE)" -f  "CPPStrings.mk"
+	@echo "----------Building project:[ Pointers - Debug ]----------"
+	@cd "Pointers" && "$(MAKE)" -f  "Pointers.mk"
 clean:
-	@echo "----------Cleaning project:[ CPPStrings - Debug ]----------"
-	@cd "CPPStrings" && "$(MAKE)" -f  "CPPStrings.mk" clean
+	@echo "----------Cleaning project:[ Pointers - Debug ]----------"
+	@cd "Pointers" && "$(MAKE)" -f  "Pointers.mk" clean

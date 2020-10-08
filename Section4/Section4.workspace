@@ -16,7 +16,9 @@
   <Project Name="Template" Path="Template/Template.project" Active="No"/>
   <Project Name="arrays" Path="arrays/arrays.project" Active="No"/>
   <Project Name="CStyleString" Path="CStyleString/CStyleString.project" Active="No"/>
-  <Project Name="CPPStrings" Path="CPPStrings/CPPStrings.project" Active="Yes"/>
+  <Project Name="CPPStrings" Path="CPPStrings/CPPStrings.project" Active="No"/>
+  <Project Name="Functions" Path="Functions/Functions.project" Active="No"/>
+  <Project Name="Pointers" Path="Pointers/Pointers.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -37,6 +39,8 @@
       <Project Name="arrays" ConfigName="Debug"/>
       <Project Name="CStyleString" ConfigName="Debug"/>
       <Project Name="CPPStrings" ConfigName="Debug"/>
+      <Project Name="Functions" ConfigName="Debug"/>
+      <Project Name="Pointers" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -57,6 +61,8 @@
       <Project Name="arrays" ConfigName="Release"/>
       <Project Name="CStyleString" ConfigName="Release"/>
       <Project Name="CPPStrings" ConfigName="Release"/>
+      <Project Name="Functions" ConfigName="Release"/>
+      <Project Name="Pointers" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
