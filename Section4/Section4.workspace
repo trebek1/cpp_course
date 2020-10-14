@@ -18,7 +18,11 @@
   <Project Name="CStyleString" Path="CStyleString/CStyleString.project" Active="No"/>
   <Project Name="CPPStrings" Path="CPPStrings/CPPStrings.project" Active="No"/>
   <Project Name="Functions" Path="Functions/Functions.project" Active="No"/>
-  <Project Name="Pointers" Path="Pointers/Pointers.project" Active="Yes"/>
+  <Project Name="Pointers" Path="Pointers/Pointers.project" Active="No"/>
+  <Project Name="Array_Pointer" Path="Array_Pointer/Array_Pointer.project" Active="No"/>
+  <Project Name="PassingPointers" Path="PassingPointers/PassingPointers.project" Active="No"/>
+  <Project Name="PassingPointers2" Path="PassingPointers2/PassingPointers2.project" Active="No"/>
+  <Project Name="Debugger" Path="Debugger/Debugger.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -41,6 +45,10 @@
       <Project Name="CPPStrings" ConfigName="Debug"/>
       <Project Name="Functions" ConfigName="Debug"/>
       <Project Name="Pointers" ConfigName="Debug"/>
+      <Project Name="Array_Pointer" ConfigName="Debug"/>
+      <Project Name="PassingPointers" ConfigName="Debug"/>
+      <Project Name="PassingPointers2" ConfigName="Debug"/>
+      <Project Name="Debugger" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -63,6 +71,10 @@
       <Project Name="CPPStrings" ConfigName="Release"/>
       <Project Name="Functions" ConfigName="Release"/>
       <Project Name="Pointers" ConfigName="Release"/>
+      <Project Name="Array_Pointer" ConfigName="Release"/>
+      <Project Name="PassingPointers" ConfigName="Release"/>
+      <Project Name="PassingPointers2" ConfigName="Release"/>
+      <Project Name="Debugger" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
