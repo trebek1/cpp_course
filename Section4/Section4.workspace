@@ -27,7 +27,9 @@
   <Project Name="AccessingClassMembers" Path="AccessingClassMembers/AccessingClassMembers.project" Active="No"/>
   <Project Name="ImplementingMethods" Path="ImplementingMethods/ImplementingMethods.project" Active="No"/>
   <Project Name="ImplementingMethods2" Path="ImplementingMethods2/ImplementingMethods2.project" Active="No"/>
-  <Project Name="CopyConstructor" Path="CopyConstructor/CopyConstructor.project" Active="Yes"/>
+  <Project Name="CopyConstructor" Path="CopyConstructor/CopyConstructor.project" Active="No"/>
+  <Project Name="ShallowCopy" Path="ShallowCopy/ShallowCopy.project" Active="No"/>
+  <Project Name="DeepCopy" Path="DeepCopy/DeepCopy.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -59,6 +61,8 @@
       <Project Name="ImplementingMethods" ConfigName="Debug"/>
       <Project Name="ImplementingMethods2" ConfigName="Debug"/>
       <Project Name="CopyConstructor" ConfigName="Debug"/>
+      <Project Name="ShallowCopy" ConfigName="Debug"/>
+      <Project Name="DeepCopy" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -90,6 +94,8 @@
       <Project Name="ImplementingMethods" ConfigName="Release"/>
       <Project Name="ImplementingMethods2" ConfigName="Release"/>
       <Project Name="CopyConstructor" ConfigName="Release"/>
+      <Project Name="ShallowCopy" ConfigName="Release"/>
+      <Project Name="DeepCopy" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
