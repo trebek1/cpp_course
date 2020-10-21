@@ -5,10 +5,10 @@ using namespace std;
 int main() {
     Mystring empty;
     Mystring larry { "Larry" };
-    Mystring stoog { larry };
+    Mystring stooge { larry };
 
     empty.display();
     larry.display();
-    stooe.display();
+    stooge.display();
     return 0;
 }

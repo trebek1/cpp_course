@@ -28,6 +28,17 @@ Mystring::Mystring(const Mystring& source)
     std::strcpy(str, source.str);
 }
 
+Mystring& Mystring::operator=(const Mystring& rhs) {
+    std::cout << "copy assignment " << std::endl;
+    if(this == &rhs) {
+        return *this;
+    }
+    delete[] str;
+    str = new char[std::strlen(rhs.str) + 1];
+    std::strcpy(str, rhs.str);
+    return *this;
+};
+
 // Destructor
 Mystring::~Mystring() {
     delete[] str;
