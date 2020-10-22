@@ -32,7 +32,11 @@
   <Project Name="DeepCopy" Path="DeepCopy/DeepCopy.project" Active="No"/>
   <Project Name="MoveConstructor" Path="MoveConstructor/MoveConstructor.project" Active="No"/>
   <Project Name="Challenge_13" Path="Challenge_13/Challenge_13.project" Active="No"/>
-  <Project Name="MyString" Path="MyString/MyString.project" Active="Yes"/>
+  <Project Name="MyString" Path="MyString/MyString.project" Active="No"/>
+  <Project Name="DerivingOurFirstClass" Path="DerivingOurFirstClass/DerivingOurFirstClass.project" Active="No"/>
+  <Project Name="ProtectedMemberClassAccess" Path="ProtectedMemberClassAccess/ProtectedMemberClassAccess.project" Active="No"/>
+  <Project Name="BaseClassInitialization" Path="BaseClassInitialization/BaseClassInitialization.project" Active="Yes"/>
+  <Project Name="CopyConstructorAssignmentOperator" Path="CopyConstructorAssignmentOperator/CopyConstructorAssignmentOperator.project"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -69,6 +73,10 @@
       <Project Name="MoveConstructor" ConfigName="Debug"/>
       <Project Name="Challenge_13" ConfigName="Debug"/>
       <Project Name="MyString" ConfigName="Debug"/>
+      <Project Name="DerivingOurFirstClass" ConfigName="Debug"/>
+      <Project Name="ProtectedMemberClassAccess" ConfigName="Debug"/>
+      <Project Name="BaseClassInitialization" ConfigName="Debug"/>
+      <Project Name="CopyConstructorAssignmentOperator" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -105,6 +113,10 @@
       <Project Name="MoveConstructor" ConfigName="Release"/>
       <Project Name="Challenge_13" ConfigName="Release"/>
       <Project Name="MyString" ConfigName="Release"/>
+      <Project Name="DerivingOurFirstClass" ConfigName="Release"/>
+      <Project Name="ProtectedMemberClassAccess" ConfigName="Release"/>
+      <Project Name="BaseClassInitialization" ConfigName="Release"/>
+      <Project Name="CopyConstructorAssignmentOperator" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
