@@ -35,8 +35,14 @@
   <Project Name="MyString" Path="MyString/MyString.project" Active="No"/>
   <Project Name="DerivingOurFirstClass" Path="DerivingOurFirstClass/DerivingOurFirstClass.project" Active="No"/>
   <Project Name="ProtectedMemberClassAccess" Path="ProtectedMemberClassAccess/ProtectedMemberClassAccess.project" Active="No"/>
-  <Project Name="BaseClassInitialization" Path="BaseClassInitialization/BaseClassInitialization.project" Active="Yes"/>
-  <Project Name="CopyConstructorAssignmentOperator" Path="CopyConstructorAssignmentOperator/CopyConstructorAssignmentOperator.project"/>
+  <Project Name="BaseClassInitialization" Path="BaseClassInitialization/BaseClassInitialization.project" Active="No"/>
+  <Project Name="CopyConstructorAssignmentOperator" Path="CopyConstructorAssignmentOperator/CopyConstructorAssignmentOperator.project" Active="No"/>
+  <Project Name="TheProblem" Path="TheProblem/TheProblem.project" Active="No"/>
+  <Project Name="VirtualFunction" Path="VirtualFunction/VirtualFunction.project" Active="No"/>
+  <Project Name="UsingOverride" Path="UsingOverride/UsingOverride.project" Active="No"/>
+  <Project Name="BaseClassReferences" Path="BaseClassReferences/BaseClassReferences.project" Active="No"/>
+  <Project Name="PureVirtualFunctions" Path="PureVirtualFunctions/PureVirtualFunctions.project" Active="No"/>
+  <Project Name="Interfaces" Path="Interfaces/Interfaces.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -77,6 +83,12 @@
       <Project Name="ProtectedMemberClassAccess" ConfigName="Debug"/>
       <Project Name="BaseClassInitialization" ConfigName="Debug"/>
       <Project Name="CopyConstructorAssignmentOperator" ConfigName="Debug"/>
+      <Project Name="TheProblem" ConfigName="Debug"/>
+      <Project Name="VirtualFunction" ConfigName="Debug"/>
+      <Project Name="UsingOverride" ConfigName="Debug"/>
+      <Project Name="BaseClassReferences" ConfigName="Debug"/>
+      <Project Name="PureVirtualFunctions" ConfigName="Debug"/>
+      <Project Name="Interfaces" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -117,6 +129,12 @@
       <Project Name="ProtectedMemberClassAccess" ConfigName="Release"/>
       <Project Name="BaseClassInitialization" ConfigName="Release"/>
       <Project Name="CopyConstructorAssignmentOperator" ConfigName="Release"/>
+      <Project Name="TheProblem" ConfigName="Release"/>
+      <Project Name="VirtualFunction" ConfigName="Release"/>
+      <Project Name="UsingOverride" ConfigName="Release"/>
+      <Project Name="BaseClassReferences" ConfigName="Release"/>
+      <Project Name="PureVirtualFunctions" ConfigName="Release"/>
+      <Project Name="Interfaces" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
