@@ -42,7 +42,8 @@
   <Project Name="UsingOverride" Path="UsingOverride/UsingOverride.project" Active="No"/>
   <Project Name="BaseClassReferences" Path="BaseClassReferences/BaseClassReferences.project" Active="No"/>
   <Project Name="PureVirtualFunctions" Path="PureVirtualFunctions/PureVirtualFunctions.project" Active="No"/>
-  <Project Name="Interfaces" Path="Interfaces/Interfaces.project" Active="Yes"/>
+  <Project Name="Interfaces" Path="Interfaces/Interfaces.project" Active="No"/>
+  <Project Name="UniquePointers" Path="UniquePointers/UniquePointers.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -89,6 +90,7 @@
       <Project Name="BaseClassReferences" ConfigName="Debug"/>
       <Project Name="PureVirtualFunctions" ConfigName="Debug"/>
       <Project Name="Interfaces" ConfigName="Debug"/>
+      <Project Name="UniquePointers" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -135,6 +137,7 @@
       <Project Name="BaseClassReferences" ConfigName="Release"/>
       <Project Name="PureVirtualFunctions" ConfigName="Release"/>
       <Project Name="Interfaces" ConfigName="Release"/>
+      <Project Name="UniquePointers" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

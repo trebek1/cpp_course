@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ UsingOverride - Debug ]----------"
-	@cd "UsingOverride" && "$(MAKE)" -f  "UsingOverride.mk"
+	@echo "----------Building project:[ UniquePointers - Debug ]----------"
+	@cd "UniquePointers" && "$(MAKE)" -f  "UniquePointers.mk"
 clean:
-	@echo "----------Cleaning project:[ UsingOverride - Debug ]----------"
-	@cd "UsingOverride" && "$(MAKE)" -f  "UsingOverride.mk" clean
+	@echo "----------Cleaning project:[ UniquePointers - Debug ]----------"
+	@cd "UniquePointers" && "$(MAKE)" -f  "UniquePointers.mk" clean
